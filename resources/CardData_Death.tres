@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="CardData" load_steps=3 format=3 uid="uid://bp4ptgjd3wkg3"]
+
+[ext_resource type="Texture2D" uid="uid://dkcgq5nexwbwj" path="res://assets/Fantasy Cards V1.2/Sprite Files/Sprite1.png" id="1_080xb"]
+[ext_resource type="Script" uid="uid://c30l1s5jsisr0" path="res://scripts/CardData.gd" id="1_mgfim"]
+
+[resource]
+script = ExtResource("1_mgfim")
+art = ExtResource("1_080xb")
+metadata/_custom_type_script = "uid://c30l1s5jsisr0"

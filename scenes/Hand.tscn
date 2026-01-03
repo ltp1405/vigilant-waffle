@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://c74xlepjkit0o"]
+
+[ext_resource type="Script" uid="uid://wwpaa7f5q6mn" path="res://scripts/Hand.gd" id="1_jagoa"]
+
+[sub_resource type="Curve" id="Curve_vchyo"]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.49456525, 0.516854), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="Curve" id="Curve_co447"]
+_limits = [-1.0, 1.0, 0.0, 1.0]
+_data = [Vector2(0, -1), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[node name="Hand" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_jagoa")
+hand_width = 600.0
+spacing_curve = SubResource("Curve_vchyo")
+rotation_curve = SubResource("Curve_co447")

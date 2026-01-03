@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://c3rh5kul0kmfu"]
+
+[ext_resource type="Script" uid="uid://dutu545h3m10n" path="res://scripts/Unit.gd" id="1_h85lg"]
+[ext_resource type="Texture2D" uid="uid://cci24tpbs1rmo" path="res://assets/Fantasy Cards V1.2/Sprite Files/Sprite14.png" id="2_fqlnf"]
+
+[node name="Unit" type="Node2D"]
+script = ExtResource("1_h85lg")
+
+[node name="Artwork" type="Sprite2D" parent="."]
+texture = ExtResource("2_fqlnf")
